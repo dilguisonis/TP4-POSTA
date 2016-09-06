@@ -1,5 +1,7 @@
 package ort.edu.ar.tp4;
 
+import com.google.android.gms.maps.model.LatLng;
+
 /**
  * Created by 41823413 on 9/8/2016.
  */
@@ -14,5 +16,9 @@ public class Dato {
         this.population = poblacion;
         this.lat=lat;
         this.lng=lng;
+    }
+
+    public LatLng getLatLng(){
+        return new LatLng(lat,lng);
     }
 }

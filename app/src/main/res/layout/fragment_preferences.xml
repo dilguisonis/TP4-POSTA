@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ort.edu.ar.tp4.preferencesFragment">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa un numero de habitante minimo"/>/>
+
+    <EditText
+        android:id="@+id/numHabitante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese una distancia entre las opciones"/>
+
+    <EditText
+        android:id="@+id/auxnumHabitante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solo ciudades capitales"/>
+    <CheckBox
+        android:id="@+id/chkBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/BOTON"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="OK"/>
+</LinearLayout>
+</FrameLayout>
